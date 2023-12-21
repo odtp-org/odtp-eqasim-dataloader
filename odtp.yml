@@ -6,11 +6,11 @@
 - author: Author of the component
 - original_author: Author of the tool
 - description: Description
-- tags: ["example", "tutorial"]
+- type: ephemeral
+- tags: ["dataloader"]
 - arguments:
-  - PARAMETER A: ..
-- inputs:
-  - data: /data
+  - LINK: string
+- inputs: None
 - devices:
   - gpus: False
 - inputSchema: ...
