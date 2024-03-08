@@ -5,7 +5,7 @@ This component is a temporal solution until we have dataloaders defined for each
 
 Therefore, the only ENV variable available is: 
 
-- LINK: 
+- LINK:
 
 ## Development
 
