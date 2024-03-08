@@ -1,6 +1,6 @@
 # This file should contain basic component information for your component.
 - name: Eqasim dataloader
-- component_version: 0.2.0
+- component_version: 0.3.0
 - repository: 
 - author: Caviri
 - original_author: Caviri
