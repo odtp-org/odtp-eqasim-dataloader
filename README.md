@@ -7,6 +7,10 @@ Therefore, the only ENV variable available is:
 
 - LINK:
 
+## Changelog
+
+- v0.3.0 Updated `odtp.yml`
+
 ## Development
 
 Developed by SDSC/CSFM

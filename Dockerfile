@@ -27,7 +27,7 @@ RUN apt-get update && apt-get -y upgrade \
 # ODTP setup
 ##################################################
 
-COPY odtp.requirements.txt /tmp/odtp.requirements.txt
+COPY odtp-component-client/requirements.txt /tmp/odtp.requirements.txt
 RUN pip install -r /tmp/odtp.requirements.txt
 
 
@@ -57,10 +57,6 @@ RUN mkdir /odtp \
     /odtp/odtp-input \
     /odtp/odtp-workdir \
     /odtp/odtp-output 
-
-# This last 2 folders are specific from odtp-eqasim
-RUN mkdir /odtp/odtp-workdir/cache \
-    /odtp/odtp-workdir/output 
 
 # This copy all the information for running the ODTP component
 COPY odtp.yml /odtp/odtp-config/odtp.yml
