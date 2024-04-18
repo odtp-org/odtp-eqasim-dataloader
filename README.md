@@ -20,7 +20,9 @@ Therefore, the only ENV variable available is:
 
 ## Changelog
 
-- v0.3.1 Updated `odtp-component-client`
+- v0.3.1 
+    - Updated `odtp-component-client`
+    - Added quiet to unzip
 - v0.3.0 Updated `odtp.yml`
 
 ## Development
