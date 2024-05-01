@@ -6,7 +6,7 @@ This is the component that will download and arrange files to make it compatible
 ```
 odtp new odtp-component-entry \
 --name odtp-eqasim-dataloader \
---component-version 0.3.1 \
+--component-version 0.3.2 \
 --repository https://github.com/odtp-org/odtp-eqasim-dataloader
 ```
 
@@ -20,9 +20,14 @@ Therefore, the only ENV variable available is:
 
 ## Changelog
 
+- v0.3.2
+    - Ubuntu fixed at 22.04
+    - Python fixed at 3.10
+
 - v0.3.1 
     - Updated `odtp-component-client`
     - Added quiet to unzip
+
 - v0.3.0 Updated `odtp.yml`
 
 ## Development
