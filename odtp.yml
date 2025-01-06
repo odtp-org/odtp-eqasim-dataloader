@@ -1,11 +1,18 @@
-# This file should contain basic component information for your component.
+# Schema version for tracking updates to the schema format
+schema-version: "v0.5.0"
+
+# Component Information
 component-name: odtp-eqasim-dataloader
-component-author: Carlos Vivar Rios
 component-version: v0.4.0
-component-repository: https://github.com/odtp-org/odtp-eqasim-dataloader
 component-license: AGPL-3.0
 component-type: ephemeral
 component-description: Tool to download and uncompress a data folder
+component-authors:
+  - name: Carlos Vivar Rios
+    orcid: "https://orcid.org/0000-0002-8076-2034"
+component-repository:
+  url: "https://github.com/odtp-org/odtp-eqasim-dataloader"
+  doi: null
 tags:
   - dataloader
   - download
@@ -15,7 +22,7 @@ tools: null
 
 # If your tool require some secrets token to be passed as ENV to the component
 # This won't be traced in MongoDB
-secrets: 
+secrets:
   - name: LINK
     default-value: null
     datatype: string
@@ -32,7 +39,7 @@ ports: null
 
 # If applicable, parameters exposed by the component
 # Datatype can be str, int, float, or bool.
-parameters: 
+parameters:
   - name: LINK
     default-value: null
     datatype: string
@@ -48,7 +55,7 @@ data-inputs: null
 data-output:
   - name: data
     type: Folder
-    path: data  
+    path: data
     description: Input data for eqasim
 
 # If applicable, path to schemas to perform semantic validation.
@@ -58,4 +65,5 @@ schema-output: null
 
 # If applicable, define devices needed such as GPU.
 devices:
-  gpu: false
+  - type: gpu
+    required: false
