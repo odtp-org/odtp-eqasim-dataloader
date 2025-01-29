@@ -3,7 +3,7 @@ schema-version: "v0.5.0"
 
 # Component Information
 component-name: odtp-eqasim-dataloader
-component-version: v0.5.0
+component-version: v0.5.1
 component-license: AGPL-3.0
 component-type: ephemeral
 component-description: Tool to download and uncompress a data folder
@@ -23,7 +23,7 @@ tools: null
 # If your tool require some secrets token to be passed as ENV to the component
 # This won't be traced in MongoDB
 secrets:
-  - name: LINK
+  - name: PASSWORD
     default-value: null
     datatype: string
     description: Password to the switch drive link to download

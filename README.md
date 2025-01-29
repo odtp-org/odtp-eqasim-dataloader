@@ -36,6 +36,11 @@ docker run -it --rm -v ${pwd}/odtp-input:/odtp/odtp-input -v ${pwd}/odtp-output:
 
 ## Changelog
 
+- v0.5.1
+    - Improved logic in the app
+    - Added LINK and PASSWORD existence logging message
+    - Fixed error in secret name in `odtp.yml`
+
 - v0.5.0
     - Updated `odtp.yml` to version v0.5.0
 
