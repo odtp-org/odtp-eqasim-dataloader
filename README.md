@@ -36,6 +36,9 @@ docker run -it --rm -v ${pwd}/odtp-input:/odtp/odtp-input -v ${pwd}/odtp-output:
 
 ## Changelog
 
+- v0.5.0
+    - Updated `odtp.yml` to version v0.5.0
+
 - v0.4.0
 
 - v0.3.5
